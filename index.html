@@ -4,32 +4,28 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="libs/jquery.js"></script>
     <script type="text/javascript" src="libs/d3.js"></script>
     <script type="text/javascript" src="libs/d3.layout.js"></script>
-    <script type="text/javascript" src="parse.js"></script>
-    <script type="text/javascript">
-      //console.log(JSON.stringify(tree));
-    </script>
+    <script type="text/javascript" src="Parser.js"></script>
+
     <style type="text/css">
+      .node circle {
+        cursor: pointer;
+        fill: #fff;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+      }
 
+      .node text {
+        font-size: 11px;
+      }
 
-.node circle {
-  cursor: pointer;
-  fill: #fff;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
-
-.node text {
-  font-size: 11px;
-}
-
-path.link {
-  fill: none;
-  stroke: #ccc;
-  stroke-width: 1.5px;
-}
-
+      path.link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+      }
     </style>
   </head>
   <body>
@@ -37,36 +33,42 @@ path.link {
     </div>
     <script type="text/javascript">
 
-var m = [20, 120, 20, 120],
-    w = 1280 - m[1] - m[3],
-    h = 800 - m[0] - m[2],
-    i = 0,
-    root;
+    $.get('staffList.txt', function(data) {
+      var parser = new Parser();
+      var paths = parser.build_paths(data.split("\n"));
+      var tree_data = parser.build_tree(paths);
 
-var tree = d3.layout.tree()
-    .size([h, w]);
+      var m = [20, 120, 20, 120],
+              w = 1280 - m[1] - m[3],
+              h = 800 - m[0] - m[2],
+              i = 0,
+              root;
 
-var diagonal = d3.svg.diagonal()
-    .projection(function(d) { return [d.y, d.x]; });
+      var tree = d3.layout.tree()
+        .size([h, w]);
 
-var vis = d3.select("#body").append("svg:svg")
-    .attr("width", w + m[1] + m[3])
-    .attr("height", h + m[0] + m[2])
-  .append("svg:g")
-    .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+      var diagonal = d3.svg.diagonal()
+          .projection(function(d) { return [d.y, d.x]; });
 
-//d3.data(JSON.stringify(data), function(json) {
-  json = JSON.parse(JSON.stringify(tree_data));
-  root = json;
-  root.x0 = h / 2;
-  root.y0 = 0;
+      var vis = d3.select("#body").append("svg:svg")
+          .attr("width", w + m[1] + m[3])
+          .attr("height", h + m[0] + m[2])
+        .append("svg:g")
+          .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
-  function toggleAll(d) {
-    if (d.children) {
-      d.children.forEach(toggleAll);
-      toggle(d);
-    }
-  }
+      //d3.data(JSON.stringify(data), function(json) {
+        json = JSON.parse(JSON.stringify(tree_data));
+        root = json;
+        root.x0 = h / 2;
+        root.y0 = 0;
+
+        function toggleAll(d) {
+          if (d.children) {
+            d.children.forEach(toggleAll);
+            toggle(d);
+          }
+        }
+
 
   // Initialize the display to show a few nodes.
   root.children.forEach(toggleAll);
@@ -191,16 +193,25 @@ function update(source) {
   });
 }
 
-// Toggle children.
-function toggle(d) {
-  if (d && d.children) {
-    d._children = d.children;
-    d.children = null;
-  } else {
-    d.children = d._children;
-    d._children = null;
-  }
-}
+      // Toggle children.
+      function toggle(d) {
+        if (d && d.children) {
+          d._children = d.children;
+          d.children = null;
+        } else {
+          d.children = d._children;
+          d._children = null;
+        }
+      }
+    
+
+    });
+
+
+
+
+
+
 
     </script>
   </body>
