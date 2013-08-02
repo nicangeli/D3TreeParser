@@ -1,10 +1,15 @@
+
+
 function Parser() {
+
+	var self = this;
+
 	this.build_paths = function(lines) {
 		var holder = [];
 		
 		lines.forEach(function(line) {
 			var stack = [];
-			var indent = line.match(/-/g) == null ? 0 : line.match(/-/g).length;
+			var indent = self.get_indent(line);
 			stack[indent] = line.substr(indent);
 			stack.splice(indent+1, stack.length);
 			//console.log(stack);
@@ -12,6 +17,20 @@ function Parser() {
 		})
 		return holder;
 	}
+
+	this.get_indent = function(string) {
+		var indent = 0;
+		for(var i = 0; i < string.length; i++) {
+			var character = string[i];
+			if(character == '-') {
+				indent++;
+			} else {
+				break;
+			}
+		}
+		return indent;
+	}
+
 
 	this.build_tree = function(paths) {
 		var current_at_depth = [];

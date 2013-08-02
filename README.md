@@ -13,4 +13,4 @@ Parser that builds a D3 Tree graph from simple text format as such:
 
 ##TODO
 
-Stop counting indents as just hyphens, instead just the first occurences of hyphens
+Decouple extra info from the display
