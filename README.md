@@ -3,10 +3,10 @@ D3TreeParser
 
 Parser that builds a D3 Tree graph from simple text format as such: 
 
-    ROOT
-    -NODE1
-    --NODE2
-    -NODE3
+    ROOT | Second Detail | Third Detail
+    -NODE1 | Second Detail
+    --NODE2 | | Third Detail
+    -NODE3 | Second Detail
     --NODE4
     ---NODE5
     -NODE6
