@@ -38,21 +38,8 @@ function Parser() {
 	}
 
 	this.clear_empty = function(data) {
-    for (var key in data) {
-        var item = data[key];
-        // see if this item is an array
-        if (Array.isArray(item)) {
-            // see if the array is empty
-            if (item.length == 0) {
-                // remove this item from the parent object
-                delete data[key];
-            }
-        // if this item is an object, then recurse into it 
-        // to remove empty arrays in it too
-        } else if (typeof item == "object") {
-            clear_empty(item);
-        }
-    }
-    return data;    
+		data = JSON.stringify(data);
+		data = data.replace(/,"children":\[\]/g, '');
+		return data;
 	}
 }
