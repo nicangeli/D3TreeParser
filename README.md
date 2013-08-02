@@ -14,5 +14,4 @@ Parser that builds a D3 Tree graph from simple text format as such:
 ##TODO
 
 Stop counting indents as just hyphens, instead just the first occurences of hyphens
-Add seperator to text format to allow for multi line detail input into D3 tree. Name, title. wte
 Clear empty {children: [] }out to prevent leaf nodes being clickable

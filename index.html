@@ -37,6 +37,8 @@
       var parser = new Parser();
       var paths = parser.build_paths(data.split("\n"));
       var tree_data = parser.build_tree(paths);
+      tree_data = JSON.stringify(tree_data);
+
 
       var m = [20, 120, 20, 120],
               w = 1280 - m[1] - m[3],
@@ -57,7 +59,7 @@
           .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
       //d3.data(JSON.stringify(data), function(json) {
-        json = JSON.parse(JSON.stringify(tree_data));
+        json = JSON.parse(tree_data);
         root = json;
         root.x0 = h / 2;
         root.y0 = 0;
