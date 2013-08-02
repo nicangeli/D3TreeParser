@@ -1,0 +1,397 @@
+
+{
+ "name": "Madeleine Hughes",
+ "title": "Business Manager",
+ "wte": 1,
+ "children": [
+      {
+        "name": "CL Forster",
+        "title": "Customer Service Manager",
+        "wte": 1,
+        "children": [
+          {
+            "name": "DJ Smith",
+            "title": "DNA Clerk",
+            "wte": 1
+          },
+          {
+            "name": "",
+            "title": "OPD Coordinator",
+            "wte": 3,
+            "children": [
+                {
+                  "name": "S Finn",
+                  "wte": 1
+                },
+                {
+                  "name": "VACANCY",
+                  "wte": 2
+                }
+            ] 
+          },
+          {
+            "name": "",
+            "title": "Front of House Manager",
+            "wte": "1.62",
+            "children": [
+              {
+                "name": "Staff List",
+                "children": [
+                    {
+                       "name": "SJ Rayner",
+                       "wte": 1
+                    },
+                    {
+                        "name": "H Terrington",
+                        "wte": 0.62
+                     }
+                ]
+              },
+              {
+                "name": "M Brancher",
+                "title": "Housekeeper",
+                "wte": 1
+              },
+              {
+                "name": "",
+                "title": "Front Desk",
+                "wte": 3,
+                "children": [
+                  {
+                    "name": "J McDonald",
+                    "wte": 1
+                  },
+                  {
+                    "name": "D Rees",
+                    "wte": 1
+                  },
+                  {
+                    "name": "SJ Jones",
+                    "wte": 1
+                  }
+                ]
+              },
+              {
+                "name": "",
+                "title": "Receptionists",
+                "wte": 29.85,
+                "children": [
+                  {
+                    "name": "K Turner",
+                    "wte": 1
+                  },
+                  {
+                    "name": "JV Ellerby",
+                    "wte": 0.5
+                  },
+                  {
+                    "name": "W Mensah",
+                    "wte": 1
+                  },
+                  {
+                    "name": "LM Baker",
+                    "wte": 1
+                  },
+                  {
+                    "name": "DJ Veazey",
+                    "wte": 1
+                  },
+                  {
+                    "name": "PA Le Beau",
+                    "wte": 1
+                  },
+                  {
+                    "name": "D Green",
+                    "wte": 0.44
+                  },
+                  {
+                    "name": "TK Burton",
+                    "wte": 1
+                  },
+                  {
+                    "name": "L Morey",
+                    "wte": 0.92
+                  },
+                  {
+                    "name": "LE Hunt",
+                    "wte": 1
+                  },
+                  {
+                    "name": "VACANCY",
+                    "wte": 0.04
+                  },
+                  {
+                    "name": "TL Smith",
+                    "wte": 1
+                  },
+                  {
+                    "name": "LM Weinberg",
+                    "wte": 1
+                  },
+                  {
+                    "name": "B Dixon-Brady",
+                    "wte": 0.6
+                  },
+                  {
+                    "name": "DJ Aldridge",
+                    "wte": 1
+                  },
+                  {
+                    "name": "S Nanuck",
+                    "wte": 1
+                  },
+                  {
+                    "name": "NJ Harper",
+                    "wte": 0.59
+                  },
+                  {
+                    "name": "JI Burr",
+                    "wte": 1
+                  },
+                  {
+                    "name": "EA Byford",
+                    "wte": 1
+                  },
+                  {
+                    "name": "SE Cann",
+                    "wte": 1
+                  },
+                  {
+                    "name": "SL Harper",
+                    "wte": 0.5
+                  },
+                  {
+                    "name": "KA Harker",
+                    "wte": 1
+                  },
+                  {
+                    "name": "RJ Ahmed",
+                    "wte": 1
+                  },
+                  {
+                    "name": "LI Hewitt Creary",
+                    "wte": 0.56
+                  },
+                  {
+                    "name": "MS Moret",
+                    "wte": 1
+                  },
+                  {
+                    "name": "TA O'Donoghue",
+                    "wte": 1
+                  },
+                  {
+                    "name": "HL Hayward",
+                    "wte": 1
+                  },
+                  {
+                    "name": "M Joseph",
+                    "wte": 0.8
+                  },
+                  {
+                    "name": "FE Wingrove",
+                    "wte": 1
+                  },
+                  {
+                    "name": "A Bat",
+                    "wte": 1
+                  }, 
+                  {
+                    "name": "VACANCY",
+                    "wte": 3.9
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RS Binjhu",
+        "title": "Senior Clinic Manager",
+        "wte": 1,
+        "children": [
+          {
+            "name": "S Tariq",
+            "title": "2WW Manager",
+            "wte": 1,
+            "children" : [
+              {
+                "name": "",
+                "title": "2WW Admin",
+                "wte": 2,
+                "children": [
+                    {
+                      "name": "K Stewart",
+                      "wte": 1
+                    },
+                    {
+                      "name": "L McCord",
+                      "wte": 1
+                    }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "",
+            "title": "Clinic Managers",
+            "wte": 10.5,
+            "children": [
+              {
+                "name": "Staff List",
+                "children": [
+                    {
+                      "name": "VACANCY",
+                      "wte": 0.5
+                    },
+                    {
+                      "name": "SL Baker",
+                      "wte": 1
+                    },
+                    {
+                      "name": "S Walsh",
+                      "wte": 1
+                    },
+                    {
+                      "name": "C Page",
+                      "wte": 1
+                    },
+                    {
+                      "name": "M Vaye",
+                      "wte": 1
+                    },
+                    {
+                      "name": "VACANCY",
+                      "wte": 6
+                    }
+                ]
+              },
+              {
+                "name": "CA Shiels",
+                "title": "Post OP Admin",
+                "wte": 1
+              },
+              {
+                "name": "",
+                "title": "OPD Admin",
+                "wte": 3,
+                "children": [
+                  {
+                    "name": "NJ Bourke",
+                    "wte": 1
+                  },
+                  {
+                    "name": "KM Tubridy",
+                    "wte": 1
+                  },
+                  {
+                    "name": "Joyce Bakari",
+                    "wte": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DR Hinds",
+        "title": "Deputy Business Manager",
+        "wte": 1,
+        "children": [
+          {
+              "name": "C Griffiths",
+              "title": "New Appointment Manager",
+              "wte": 1, 
+              "children": [
+                {
+                  "name": "G Turner",
+                  "title": "Assistant Manager NAC",
+                  "wte": 0.6,
+                  "children": [
+                    {
+                      "name": "",
+                      "title": "New Appointments Booking Clerks",
+                      "wte": 17.39,
+                      "children": [
+                        {
+                          "name": "LC Millen",
+                          "wte" : 1
+                        },
+                        {
+                          "name": "KSE Antoine",
+                          "wte": 1
+                        },
+                        {
+                          "name": "N Tubridy",
+                          "wte": 1
+                        },
+                        {
+                          "name": "T Scafe",
+                          "wte": 1
+                        },
+                        {
+                          "name" : "D Fraser",
+                          "wte": 1
+                        },
+                        {
+                          "name": "MA Hendricks-Calixte",
+                          "wte": 1
+                        },
+                        {
+                          "name": "AC Corbett",
+                          "wte": 1
+                        },
+                        {
+                          "name": "MC Shaw",
+                          "wte": 0.71
+                        },
+                        {
+                          "name": "CM Patel",
+                          "wte": 1
+                        },
+                        {
+                          "name": "O Phillips",
+                          "wte": 1
+                        },
+                        {
+                          "name": "JF Caris",
+                          "wte": 1
+                        },
+                        {
+                          "name": "PE Montaque",
+                          "wte": 1
+                        },
+                        {
+                          "name": "A Coleman",
+                          "wte": 1
+                        },
+                        {
+                          "name": "E Hayes",
+                          "wte": 1
+                        },
+                        {
+                          "name": "MS Toner",
+                          "wte": 1
+                        },
+                        {
+                          "name": "SNB Tall",
+                          "wte": 1
+                        },
+                        {
+                          "name": "VACANCY",
+                          "wte": 1.68
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+          }
+        ]
+      },
+      {"name": "Lauretta Angeli"},
+      {"name": "Charlotte Angeli"}
+  ]
+}
