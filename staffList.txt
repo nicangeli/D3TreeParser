@@ -1,30 +1,161 @@
 Madeleine Hughes | Business Manager | 1
--CL Forster | Deputy Business | 1
---DJ Smith | TEST | 1
---OPD Coordinator
----S Finn
----VACANCY
---Front of House Management
+-CL Forster | Customer Service Manager | 1
+--DJ Smith | DNA Clerk | 1
+--OPD Coordinator | | 3
+---S Finn | | 1
+---VACANCY | | 2
+--Front of House Management | | 1.62
 ---Staff List
-----SJ Rayner
-----H Terrington
----M Brancher
----Front Desk
-----J McDonald
-----D Rees
-----SJ Jones
----Receptionists
-----K Turner
-----JV Ellerby
-----W Mensah
-----LM Baker
-----DJ Veazy
-----PA Le Beau
-----D Green
-----TK Burton
-----L Morey
-----LE Hunt
-----VACANCY
-----TL Smith
-----LM Weinberg
-----B Dixon-Brady
+----SJ Rayner | | 1
+----H Terrington | | 0.62
+---M Brancher | Housekeeper | 1
+---Front Desk | | 3
+----J McDonald | | 1
+----D Rees | | 1
+----SJ Jones | | 1
+---Receptionists | | 29.85
+----K Turner | | 1
+----JV Ellerby | | 0.5
+----W Mensah | | 1
+----LM Baker | | 1
+----DJ Veazy | | 1
+----PA Le Beau | | 1
+----D Green | | 0.44
+----TK Burton | | 1
+----L Morey | | 0.92
+----LE Hunt | | 1 
+----VACANCY | | 0.04
+----TL Smith | | 1
+----LM Weinberg | | 1
+----B Dixon Brady | | 0.6
+----DJ Aldridge | | 1
+----S Nanuck | | 1
+----NJ Harper | | 0.59
+----JI Burr | | 1
+----EA Byford | | 1
+----SE Cann | | 1
+----SL Harper | | 0.5
+----KA Harker | | 1
+----RJ Ahmed | | 1
+----LI Hewitt Creary | | 0.56
+----MS Moret | | 1
+----TA O'Donoghue | | 1
+----HL Hayward | | 1
+----M Joseph | | 0.8
+----FE Wingrove | | 1
+----A Bat | | 1
+----VACANCY | | 3.9
+-RS Binjhu | Senior Clinic Manager | 1
+--S Tariq | 2WW Manager | 1
+---2WW Admin | | 2
+----K Stewart | | 1
+----L McCord | | 1
+--Clinic Managers | | 10.5
+---Staff List | | 
+----VACANCY | | 0.5
+----SL Baker | | 0.5
+----S Walsh | | 1
+----C Page | | 1
+----M Vaye | | 1
+----VACANCY | | 6
+---CA Shiels | Post OP Admin | 1
+---OPD Admin | | 3
+----NJ Bourke | | 1
+----KM Tubridy | | 1
+----Joyce Bakari | | 0
+-DR Hinds | Deputy Business Manager | 1
+--C Griffiths | New Appointment Manager | 1
+---G Turner | Assistant Manager NAC | 0.6
+----New Appointments Booking Clerks | | 17.39
+-----LC Millen | | 1
+-----KSE Antoine | | 1
+-----N Turbridy | | 1
+-----T Scafe | | 1
+-----D Fraser | | 1
+-----MA Hendricks-Calixte | | 1
+-----AC Corbett | | 1
+-----MC Shaw | | 0.71
+-----CM Patel | | 1
+-----O Phillips | | 1
+-----JF Caris | | 1
+-----PE Montaque | | 1
+-----A Coleman | | 1
+-----E Hayes | | 1
+-----MS Toner | | 1
+-----SNB Tall | | 1
+-----VACANCY | | 1.68
+-AZ Lusk | Complaints Officer | 0.64
+--K Legg | PA To OPD| 1
+-RCN Harborne |Outpatients Lead Nurse| 0.85
+--W Beed | Senior Orthopaedic Technician | 1
+---Orthopaedic Technicials | | 2.5
+----C Haigh | | 1
+----JH Gordon | | 1
+----VACANCY | | 0.5  
+--Sisters | | 9.65
+---Staff List | | 
+----P Sookun | | 1
+----Z Davani | | 0.8
+----AE Sandi | | 1
+----MN Taylor | | 1
+----PKR Matharoo | | 1
+----IJ A Barroso | | 1
+----TA Davis | | 1
+----CA Barrett | | 0.85
+----VACANCY | | 1
+---Staff Nurses | | 20.88
+----Staff List | |
+-----RRL Namukasa | | 1
+-----PK Sharma | | 0.64
+-----RK Mazeka | | 1
+-----SA Tettey | | 1
+-----L Indiongco | | 1
+-----CM Payaneeandee | | 0.64
+-----SA Dudley-Finnan | | 1
+-----DP Butler | | 0.91
+-----P Raz | | 1
+-----JS Palmer | | 0.57
+-----S Robinson | | 0.43
+-----AM Ilonor | | 0.67
+-----R Macabanti | | 1
+-----F Rahman | | 1
+-----JL Mugas | | 1
+-----Z Magama | | 1
+-----R Robin | | 1
+-----VACANCY | | 6.03
+----Senior Health Care Support Workers | | 2
+-----VACANCY | | 2
+----Health Care Support Workers (foundation level) | | 2
+-----K Owusu | | 1
+-----M Guitierrez Arnaiz | | 1
+----Heath Care Support Workers | | 23.91
+-----K Bonsu | | 1
+-----M Costi | | 1
+-----EA Hudgell | | 0.8
+-----A Brown | | 0.53
+-----G Foster | | 0.4
+-----P Newby | | 1
+-----L Crispin | | 0.8
+-----JF Field | | 1
+-----FB Salamut | | 1
+-----AA Sailer | | 0.67
+-----AF Navarrette | | 0.45
+-----OO Addo | | 0.4
+-----P Johnson-Rickets | | 1
+-----E Wilkinson | | 1
+-----LI Lomas | | 1
+-----LS Macaludos | | 1
+-----DDIC Oredina | | 1
+-----H Yakubu | | 1
+-----RR Godden | | 1
+-----J Frimpong | | 1
+-----MM Dodge | | 0.59
+-----VACANCY | | 6.27
+-A Phillip | Choose & Book Manager |  1
+--L Blackshaw | DOS Coordinator | 0.6
+---Y Patel | CAB Analyst | 1
+- | 18 Week Coordinators | 5
+--CAA Ademola | | 1
+--BE Phillips | | 1
+--S Hall | | 1
+--OS Coleman | | 1
